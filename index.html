@@ -110,8 +110,9 @@
 		<!-- End Navigation -->
 
 		<!-- Home section -->
-		<div id="home" class="home-wrapper bg">
+		<div id="home" class="home-wrapper">		
 			<div class="bg-overlay"></div>
+			<div class="player"></div>
 			<div class="wrapper ">
 				<div class="inner">
 					<div class="inner-content">
@@ -864,6 +865,22 @@
 		<script src="js/ScrollToPlugin.min.js"></script>
 		<script type="text/javascript" src="js/content-scroll.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
-				
+		<script type="text/javascript" src="js/okvideo.js"></script>
+		<script type="text/javascript" src="js/initplayer.js"></script>		
+		
+		<script>
+			jQuery(document).ready(function() {
+				"use strict";
+				$('#home').waypoint(function(){					
+					$('footer').css("z-index","-999");
+				});
+				$('#about').waypoint(function(){					
+					$('footer').css("z-index","-999");
+				});
+				$('#services').waypoint(function(){
+					$('footer').css("z-index","99");
+				});
+			});
+		</script>		
 	</body>
 </html>
