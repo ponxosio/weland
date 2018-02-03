@@ -24,7 +24,7 @@
 	
 	trueMobile = isMobile.any();
 		if( trueMobile == null ) {
-        $.okvideo({ source: 'https://www.youtube.com/watch?v=xLkrpDd-qxc', 
+        $.okvideo({ source: 'https://www.youtube.com/watch?v=EJwbzYaTIik', 
                     volume: 0.1, 
                     loop: true,
                     hd:true, 

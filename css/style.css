@@ -965,7 +965,7 @@ display:block;
     transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-o-transition: all 0.5s ease 0s;
 }
 .gal-inner .img:hover .overlay {
-    opacity: 1;
+    opacity: 1
 }
 .gal-inner .img:hover .overlay a.expand {
     margin-top: -30px;
@@ -1629,6 +1629,11 @@ p.address,p.phone,p.email,p.map-link{color:#222;}
 .socialwrapper .social-i:hover{color: #fff;background:#FF2B42;}
 .f-contact-icon{font-size:48px;text-align:center;color:#222;}
 .footer-index{z-index:-999;}
+
+.custom-icon{
+    height: 35px;
+    width: 35px;
+}
 /*********************************************
  * 14. MEDIA QUERY (RESPONSIVE LAYOUT)
  *********************************************/
