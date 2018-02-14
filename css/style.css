@@ -1422,13 +1422,13 @@ transition: all 0.2s ease-out 0.2s;-webkit-transition: all 0.2s ease-out 0.2s;-m
 /*********************************************
  * 11. VIDEO SECTION
  *********************************************/
-.featured-video{position:relative;display:block;}
+.featured-video{position:relative;display:block; background-color: #fff}
 .video-section{
 text-align:center;
 display:block;
 z-index:-9999;
 }
-.parallax-2{background-image: url(../img/parallax-bg-02.jpg);background-color:#fff;background-position:bottom center;}
+.parallax-2{background-color:#fff;background-position:bottom center;}
 
 .separator-overlay {   
 	display:block;
