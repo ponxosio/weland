@@ -19,7 +19,9 @@
         <link rel="shortcut icon" href="images/favicon.ico"/>
 
         <!--Bootstrap-->
-        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <!--icon-font-->
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -75,9 +77,9 @@
             <!-- Mobile menu -->
             <div class="mobile-nav hidden-lg">
                 <ul class="slimmenu">
-                    <li><a href="#about">CONOCE AL EQUIPO</a></li>
+                    <li><a href="#team">QUIÉNES SOMOS</a></li>
                     <li><a href="#studio">QUÉ HACEMOS</a></li>
-                    <li><a href="#contact">CONTACTO</a></li>            
+                    <li><a href="#contact">CONTÁCTANOS</a></li>            
                 </ul>
             </div>
             <!-- End Mobile menu -->
@@ -90,9 +92,9 @@
                 <section id="navibar">
                     <section id="navitext">
                         <ul>
-                            <li><a href="#about">CONOCE AL EQUIPO</a></li>
+                            <li><a href="#team">QUIÉNES SOMOS</a></li>
                             <li><a href="#studio">QUÉ HACEMOS</a></li>
-                            <li><a href="#contact">CONTACTO</a></li>
+                            <li><a href="#contact">CONTÁCTANOS</a></li>
                         </ul>
                     </section>
                 </section>
@@ -116,9 +118,9 @@
             </div>
             <div class="links">
                 <ul class="clearfix">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="https://twitter.com/welandcinema"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/welandcinema/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/welandcinema/?hl=es"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -174,7 +176,7 @@
                 <div class="container">
                     <div class="col-md-8 col-md-offset-2">
                         <header class="section-header">							
-                            <h2 class="parallax-title"><span>CONOCE AL EQUIPO</span></h2>
+                            <h2 class="parallax-title"><span>QUIÉNES SOMOS</span></h2>
                             <p class="lead"></p>
                         </header>
                     </div>
@@ -192,12 +194,6 @@
                                     <h5>Realizador</h5>										
                                 </div>
                                 <img src="img/team/team1.jpg" alt=""/>
-
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google"></i></a>
-                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-4">
@@ -205,12 +201,7 @@
                                 <img src="img/team/team2.jpg" alt=""/>
                                 <div class="team">
                                     <h4>Iván Dueñas</h4>
-                                    <h5>Editor</h5>									
-                                </div>
-                                <div class="team-social type2">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google"></i></a>
+                                    <h5>Montador</h5>									
                                 </div>
                             </div>
                         </div>
@@ -604,34 +595,10 @@
                     <div class="col-md-8 col-md-offset-2">
                         <header class="section-header">							
                             <h2 class="parallax-title"><span>CONTÁCTANOS</span></h2>
-                            <p class="lead">Plantéanos tu proyecto</p>
+                            <div class="correo"><p><span class="glyphicon glyphicon-envelope"></span> welandcinema@gmail.com</p></div>
+                            <p class="telefono"><span class="glyphicon glyphicon-phone"></span> 608 398 448</p>
+                            <p class="telefono"><span class="glyphicon glyphicon-phone"></span> 658 795 620</p>
                         </header>
-                    </div>
-                    <div class="col-md-6 col-md-offset-3 contact-us">
-                        <div class="open-contact" id="show-contactform">
-                            <i class="fa fa-envelope-o"></i>
-                        </div>
-
-                        <div class="contact-form clearfix">
-                            <p class="mail-message js-hidden"><strong>Gracias.</strong> Hemos recibido tu mensaje y nos pondremos en contacto contigo cuanto antes..</p>
-                            <form id="contact-us" method="post" action="email.php" class="wrapform">
-                                <div class="col-md-6">
-                                    <input type="text" name="name" id="name" required="required" class="txtform" autocomplete="off" placeholder="Tu nombre"/>
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" name="mail" id="mail" required="required" class="txtform" autocomplete="off" value="welandcinema@gmail.com" />
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="col-md-12">
-                                    <input type="text" name="subject" id="subject" required="required" class="txtform" autocomplete="off" placeholder="Asunto"/>
-                                </div>
-                                <div class="col-md-12">
-                                    <textarea name="message" id="message" class="txtform textarea"  placeholder="Cuéntanos tu proyecto..."></textarea>
-                                </div>
-                                <!-- Send Button -->
-                                <button type="submit" id="submit" name="submit" class="theme-btn form-btn">Enviar mensaje</button> 	
-                            </form>
-                        </div>
                     </div>
                 </div>	
             </div>

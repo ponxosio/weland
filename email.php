@@ -1,8 +1,9 @@
+<html>
 <?php
 
 	//-----------------------------------------------------
 	//-----------change address to xxx@yourdomainname ----------------------
-	$address= "contact@naiknikunj.me";
+	$address= "ponxosio@gmail.com";
 	//-----------------------------------------------------
 	//-----------------------------------------------------
 
@@ -27,3 +28,5 @@
 	{	
 		echo $name. ": Thanks for contact.";
 	}
+?>
+</html>
